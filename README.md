@@ -32,32 +32,32 @@ gulp.task("html", function () {
 
 
 ## Options
-Type: object
+Type: `object`
 
 ### extensions
-Type: array
-Default: ['.jpg', '.png', '.jpeg', '.gif']
+Type: `array`<br>
+Default: `['.jpg', '.png', '.jpeg', '.gif']`
 
 Expansion subject to processing.
 
 ### localMode
-Type: boolean
-Default: true
+Type: `boolean`<br>
+Default: `true`
 
 Make only local paths.
 
 ### mode
-Type: string
-Default: "all"
+Type: `string`<br>
+Default: `all`
 
 Possible values:
-   - "avif" - Add only support "AVIF"
-   - "webp" - Add only support "Webp"
-   - "all" - Add support "AVIF" and "Webp"
+   - «avif» — Add only support «AVIF»
+   - «webp» — Add only support «Webp»
+   - «all» — Add support «AVIF» and «Webp»
 
 ### unregister
-Type: boolean
-Default: true
+Type: `boolean`<br>
+Default: `true`
 
 Do not distinguish between lowercase and uppercase letters in extensions
 
