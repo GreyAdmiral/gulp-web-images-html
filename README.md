@@ -34,19 +34,19 @@ gulp.task("html", function () {
 ## Options
 Type: object
 
-# extensions
+### extensions
 Type: array
 Default: ['.jpg', '.png', '.jpeg', '.gif']
 
 Expansion subject to processing.
 
-# localMode
+### localMode
 Type: boolean
 Default: true
 
 Make only local paths.
 
-# mode
+### mode
 Type: string
 Default: "all"
 Possible values:
@@ -54,7 +54,7 @@ Possible values:
 	- "webp" - Add only support "Webp"
 	- "all" - Add support "AVIF" and "Webp"
 
-# unregister
+### unregister
 Type: boolean
 Default: true
 
