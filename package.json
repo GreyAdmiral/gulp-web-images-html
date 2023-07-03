@@ -1,6 +1,6 @@
 {
 	"name": "gulp-web-images-html",
-	"version": "1.2.5",
+	"version": "1.2.7",
 	"description": "Replaces the <img> tag with <picture> <source> <img> in HTML files. No SVG, GIF format and data- support. The mode is possible only for local links. Fork on the plugin gulp-webp-html-nosvg.",
 	"main": "index.js",
 	"dependencies": {
