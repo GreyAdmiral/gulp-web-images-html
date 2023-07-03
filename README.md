@@ -1,4 +1,4 @@
-# gulp-webp-html-nosvg-local
+# gulp-web-images-html
 
 > This is a modified version of the plugin [gulp-webp-html-local](https://www.npmjs.com/package/gulp-webp-html-nosvg). Here was fixed thebug that added two dots before webp to the final html file. No SVG format. The mode is possible only for relative links.
 
@@ -49,7 +49,6 @@ Make only local paths.
 ### mode
 Type: `string`<br>
 Default: `all`
-
 Possible values:
    - «avif» — Add only support «AVIF»
    - «webp» — Add only support «Webp»
