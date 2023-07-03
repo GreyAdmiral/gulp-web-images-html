@@ -16,7 +16,7 @@ npm i --save-dev gulp-web-images-html
 let webpAvifHtml = require("gulp-web-images-html");
 
 gulp.task("html", function () {
-	gulp.src("./assets/**/*.html").pipe(webpAvifHtml()).pipe(gulp.dest("./public/"));
+   gulp.src("./assets/**/*.html").pipe(webpAvifHtml()).pipe(gulp.dest("./public/"));
 });
 ```
 
@@ -26,7 +26,7 @@ or
 let webpAvifHtml = require("gulp-web-images-html");
 
 gulp.task("html", function () {
-	gulp.src("./assets/**/*.html").pipe(webpAvifHtml({mode: "all"})).pipe(gulp.dest("./public/"));
+   gulp.src("./assets/**/*.html").pipe(webpAvifHtml({mode: "all"})).pipe(gulp.dest("./public/"));
 });
 ```
 
@@ -50,9 +50,9 @@ Make only local paths.
 Type: string
 Default: "all"
 Possible values:
-	- "avif" - Add only support "AVIF"
-	- "webp" - Add only support "Webp"
-	- "all" - Add support "AVIF" and "Webp"
+   - "avif" - Add only support "AVIF"
+   - "webp" - Add only support "Webp"
+   - "all" - Add support "AVIF" and "Webp"
 
 ### unregister
 Type: boolean
@@ -69,9 +69,9 @@ Do not distinguish between lowercase and uppercase letters in extensions
 
 // Output
 <picture>
-	<source srcset="/images/catalogImage.avif" type="image/avif" />
-	<source srcset="/images/catalogImage.webp" type="image/webp" />
-	<img src="/images/catalogImage.jpg" />
+   <source srcset="/images/catalogImage.avif" type="image/avif" />
+   <source srcset="/images/catalogImage.webp" type="image/webp" />
+   <img src="/images/catalogImage.jpg" />
 </picture>
 
 // Input
@@ -79,9 +79,9 @@ Do not distinguish between lowercase and uppercase letters in extensions
 
 // Output
 <picture>
-	<source srcset="/images/catalogImage.avif, /images/catalogImage2x.avif 2x" type="image/avif" />
-	<source srcset="/images/catalogImage.webp, /images/catalogImage2x.webp 2x" type="image/webp" />
-	<img src="/images/catalogImage.jpg" srcset="/images/catalogImage2x.jpg 2x" />
+   <source srcset="/images/catalogImage.avif, /images/catalogImage2x.avif 2x" type="image/avif" />
+   <source srcset="/images/catalogImage.webp, /images/catalogImage2x.webp 2x" type="image/webp" />
+   <img src="/images/catalogImage.jpg" srcset="/images/catalogImage2x.jpg 2x" />
 </picture>
 
 // Input
@@ -90,9 +90,9 @@ Do not distinguish between lowercase and uppercase letters in extensions
 
 // Output
 <picture>
-	<source srcset="/images/catalogImage.avif" type="image/avif" />
-	<source srcset="/images/catalogImage.webp" type="image/webp" />
-	<img src="/images/catalogImage.jpg" />
+   <source srcset="/images/catalogImage.avif" type="image/avif" />
+   <source srcset="/images/catalogImage.webp" type="image/webp" />
+   <img src="/images/catalogImage.jpg" />
 </picture>
 <img src="https://site.net/images/catalogImage.jpg" />
 
