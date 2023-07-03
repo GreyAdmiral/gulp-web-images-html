@@ -49,6 +49,7 @@ Make only local paths.
 ### mode
 Type: string
 Default: "all"
+
 Possible values:
    - "avif" - Add only support "AVIF"
    - "webp" - Add only support "Webp"
