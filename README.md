@@ -1,6 +1,6 @@
 # gulp-web-images-html
 
-> This is a modified version of the plugin [gulp-webp-html-local](https://www.npmjs.com/package/gulp-webp-html-nosvg). Here was fixed thebug that added two dots before webp & avif to the final html file. No SVG format. The mode is possible only for relative links.
+> This is a modified version of the plugin [gulp-webp-html-nosvg](https://www.npmjs.com/package/gulp-webp-html-nosvg). Here was fixed thebug that added two dots before webp & avif to the final html file. No SVG format. The mode is possible only for relative links.
 
 
 ## Install
